@@ -1,10 +1,11 @@
 {
   "name": "hardhat-sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "script": "node scripts/run.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,20 @@
     "chai": "^4.3.6",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.6.9",
-    "hardhat": "^2.9.9"
-  }
+    "hardhat": "^2.10.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-bia19/hardhat-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/git-bia19/hardhat-sample/issues"
+  },
+  
+ 
+  "homepage": "https://github.com/git-bia19/hardhat-sample#readme"
+  
 }
